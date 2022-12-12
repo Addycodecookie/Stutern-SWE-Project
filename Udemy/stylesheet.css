@@ -39,20 +39,31 @@ font-weight: 700;
     font-size: 0.8rem;
     text-align: left;
     padding: 1rem 0.5rem;
-    display: inline-block;
-    margin-top: 0rem;
+    display:inline;
+    position: relative;
+    top: 1rem;
     margin-right: 0.5rem;
     margin-left: 0rem;
 
 }
-
-.form-control-me-2{
+/* categories and search  */
+ .form-control-me-2{
     border-style:solid;
     border-width: 0.1rem;
     width: 35rem;
     height:2.7rem ;
-    border-color: black;
-    border-radius: 0.5rem;
+    border-color: rgb(148, 53, 53);
+    border-radius: 0.9rem;
+    font-weight: 800;
+    margin-left: 1.5rem;
+
+}
+
+.btn-btn-category {
+    font-weight: 800;
+    font-size: 0.9rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: none;
 }
 
 
@@ -196,7 +207,7 @@ font-weight: 700;
 /* this div houses the entire thing */
 .course-intro { 
     border-style: solid;
-    height: 50rem;
+    height: 25rem;
     width:auto;
     border-width: 0.1rem;
     color: grey;
@@ -208,10 +219,12 @@ font-weight: 700;
     margin-top:3rem;
     margin-left:2rem;
     margin-right: 3rem;
-    border-style:none;
+    border-style:solid;
+    border-width: 0.2rem;
     color: rgb(153, 26, 48);
 
 }
+
 .carousel-item-active {
    display: flex;
    flex-direction: row;
@@ -288,11 +301,12 @@ font-weight: 700;
 .two .greyarea{
     border: none;
     border-width: 0.5rem;
+    height: 6rem;
     color: grey;
-    width: 80rem;
+    width: 90rem;
     margin-left:1rem;
-    background-color: rgb(179, 185, 190);
-    margin-top: 5rem;
+    background-color: rgb(244, 247, 252);
+    margin-top: 3rem;
 }
 
 .indemand2{
@@ -304,6 +318,7 @@ font-weight: 700;
     padding-bottom:1rem;
     font-weight: 600;
     color: black;
+    top: 1.5rem;
 }
 
 #indemand3{
@@ -315,6 +330,7 @@ font-weight: 700;
     padding-bottom:1rem;
     font-weight: 600;
     color: rgb(8, 8, 8);
+    top:1.5rem;
 }
 
 .indemand1 {
@@ -326,21 +342,209 @@ font-weight: 700;
     padding-bottom:1rem;
     font-weight: 600;
     color: black;
+    top:1.5rem;
     
 }
 .three .picturecollage {
  display: flex;
  position: relative;
  flex-direction: row;
- margin-top: 5rem;
+ margin-top: 2rem;
  flex-grow: 1;
  max-width: max-content;
+ top:3.6rem;
+ margin-left:0rem;
+}
+
+
+.three .sectionheader{
+    display: inline;
+    position: relative;
+    top:-10rem; 
+    margin-left:5rem;  
+}
+
+.captionabove {
+    top:5rem;
+    font-weight: 800;
+    font-size: 1.8rem;
+    margin-left: 4rem;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.captionbelow {
+    margin-left: 2.7rem;
+    position: relative;
+    font-weight: 800;
 }
 
 .collage {
     margin:1rem;
     display: flex;
     flex-direction: row;
-    
+}
+/* the picture collage */
+.four .picturecollage {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin-top: 5rem;
+    flex-grow: 1;
+    max-width: max-content;
+    top:1.5rem;
+}
+
+/* section five */
+
+.five{
+    top:6rem;
+    position: relative;
+}
+
+.five5{
+    margin-left:2rem;
+    position: relative;
+    top:-1rem;
+    background-color: rgb(209, 209, 209);
+    height: 25rem;
+    max-width: 100%;
+
+}
+.five5 .captionabove {
+    margin-left: 3.5rem;
+    position: relative;
+    top:1rem;
+    font-size: 1rem;
+    font-weight:90px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; }
+
+.five5 .table{
+    margin-left: 2rem;
+    position: relative;
+    max-width:100%;
+    top: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    color: black;
+    border-style: none;
+    border-width: 0.1rem;
+    font-size: 0.9rem;
+    background-color: rgb(209, 209, 209);
+}
+
+.five .linktext {
+    color: purple;
+    font-weight: 800;
+}
+
+.five .button2 {
+    margin-left: 4rem;
+    position:relative;
+    font-size: 0.6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top:5rem;
+    display: inline-block;
+    height:2.8rem;
+    width:9rem;
+    font-weight: 500;
+}
+
+
+.table .tablerow {
+    color: rgb(94, 94, 97);
+}
+
+.fiveseclists {
+    background-color: aliceblue;
+}
+
+.sectionsixdiv{
+top:8rem;
+position: relative;
+}
+
+
+.sectionsix .sectionsixdiv {
+    position: relative;
+    top:10rem;
+    margin-left: 6rem;
+
+}
+
+.image {
+    size: 190px 90px;
+    position: relative;
+    margin-left: 9rem;
+}
+
+.photocaption6 {
+margin-left: 38rem;
+position: relative;
+top:-16rem;
+}
+
+.heading-6 {
+    font-weight: 800;
+    font-size: 1.9rem;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-style: bold;
+
+}
+
+.para-6 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    justify-content: center;
+
+}
+
+.para-6button {
+    height:2.5rem;
+    width: 9rem;
+    position: relative;
+    background-color: black;
+}
+
+.button6 {
+    font-size: 0.8rem;
+    display: inline;
+    color: white;
+}
+
+.companylogos {
+    top:-8rem;
+    position: relative;
+    background-color: aliceblue;
+    max-width: 100%;
+}
+
+.captionlogo {
+    color: black;
+    position: relative;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+
+.logopara {
+    text-align: center;
+    font-size: 0.9rem;
+    color:black;
+
+}
+
+.logoimages {
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    size: 44px 30px;
+    padding:2rem;
+    margin:5rem;
+
 
 }

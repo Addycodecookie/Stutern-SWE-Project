@@ -1,0 +1,229 @@
+.body{
+
+}
+.Header .netflix-logo-top .background-photo-1 {
+    background-image:500px 474px;
+    image-rendering: auto;
+    z-index: -15;
+    margin-bottom: -30rem;
+    position: relative;
+    width:fit-content;
+    opacity:15;
+    background-repeat: no-repeat;
+    
+}
+
+.Unlimited .subscription .btn-primary{
+position: relative;
+display: inline;
+width:7.5rem;
+height: 3rem;
+background-color:red;
+border-style: none;
+border-radius:0.1rem;
+border-color: black;
+border-width:-3rem;
+color: rgb(255, 255, 255);
+text-align:center;
+padding: 0.5rem;
+padding-top: 0.7rem;
+padding-bottom: 0.5rem;
+top: -20rem;
+margin-left: 60rem;
+font-size: 0.9rem;
+font-weight: 600;
+}
+
+.Unlimited .subscription .form {
+    width: 35rem;
+    height:2.8rem;
+    align-items: center;
+    margin-left: 24rem;
+    top: -17.3rem;
+    position: relative;
+
+}
+
+.Header .netflix-logo-top .logo {
+    margin-left:3rem;
+    font-weight: 800;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    position: relative;
+    font-size: 3rem;
+    top:-39rem;
+    font-weight: 1000;
+    
+}
+
+.netflix-logo-top .sign-up{
+    margin-left: 70rem;
+    position: relative;
+    top: -3.8rem;
+    width: 8rem;
+    height:2rem;
+    font-size:1rem;
+    border: none;
+    border-radius: 0.2rem;
+    color: white;
+    background-color: red;
+    top:-42rem;
+}
+
+.Unlimited .movie-shows {
+    text-align:center;
+    margin-top: 5rem;
+    font-size: 3.5rem;
+    position: relative;
+    color: white;
+    top: -35rem;
+    font-weight: 700;
+    padding-inline: 0;
+    backdrop-filter:blur 30px;
+    
+
+}
+
+.Unlimited .movie-shows-2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.9rem;
+    padding-inline: 0.2rem;
+    position: relative;
+    color: white;
+    top:-35rem;
+    font-weight: 500;
+}
+.Unlimited .movie-shows-3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    padding-inline: 0.1rem;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    top:-35rem;
+    box-shadow: 2rem;
+}
+
+.Ground-one .ground-one .La{
+    margin-left:5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    position: relative;
+    font-weight: 600;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    width: auto;
+}
+
+.Ground-one {
+max-height: 100rem;
+width:auto;
+background-color:black;
+margin-top: 0.8rem;
+}
+
+.Ground-one .ground-one .zero {
+    margin-left:5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:1.8rem;
+    position: relative;
+    color: white;
+    font-weight: 200;
+    padding-top: 1rem;
+    line-height: 2.5rem;
+    padding-bottom:4.5rem;
+
+
+}
+
+.Ground-one .ground-one .image-zero {
+    border-image-width:-125rem;
+    width:-115rem;
+    margin-left: 29rem;
+    position: relative;
+    top:-12rem;
+    background-color: aqua;
+
+}
+
+
+.Ground-two {
+    max-height: 150rem;
+    width:auto;
+    background-color:black;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.Ground-two .ground-two .La-2{
+    margin-left:39rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.7rem;
+    position: relative;
+    font-weight: 600;
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    line-height: 2.8rem ;
+    width: auto;
+}
+
+.Ground-two .ground-two .zero-1 {
+    margin-left:39rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:1.6rem;
+    position: relative;
+    color: white;
+    font-weight: 200;
+    padding-top: -8rem;
+    line-height: 2.3rem;
+    padding-bottom:4.5rem;}
+
+    .Ground-two .ground-two .image-zero-2{
+        size:1% 0.5%;
+        margin-top: -9rem;
+    }
+
+    .Ground-three {
+        max-height: 150rem;
+        width:auto;
+        background-color:black;
+        /* adjust from here to move up and down */
+        margin-top: 10rem; 
+        top:-8rem;
+    }
+
+    .Ground-three .ground-three .three{
+        margin-left:39rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 2.7rem;
+        position: relative;
+        font-weight: 600;
+        color: white;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+        line-height: 2.8rem ;
+    }
+
+    .Ground-three .ground-three .zero-3 {
+        margin-left:39rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:1.6rem;
+        position: relative;
+        color: white;
+        font-weight: 200;
+        padding-top: -5rem;
+        line-height: 2.3rem;
+        padding-bottom:2.5rem;
+    }
+
+    .Ground-three .ground-three .image-zero-3{
+        size: 60px 30px;
+        margin-top: -8rem;
+
+    }
+
+    @media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px)
