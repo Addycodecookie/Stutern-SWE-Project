@@ -1,10 +1,9 @@
 .btn-btn-outline-login {
 position: relative;
 display: inline;
-min-width:5rem;
-min-height: 3rem;
+width:6rem;
+Height:2rem;
 border-radius:0%;
-height:1.3rem;
 color: black;
 text-align:center;
 margin: 10px;
@@ -17,20 +16,19 @@ font-weight: 700;
 
 .btn-btn-outline-sign{
     position: relative;
-    display: inline;
-    min-width:5rem;
-    min-height: 3rem;
+    display: inline-block;
+    Width:6rem;
+    Height: 2rem;
     border-radius:0%;
-    height:1.3rem;
-    color: black;
-    padding: 15px 20px;
-    text-align: left;
+    color: white;
+    text-align:center;
     margin:10px;
     /* when you want space between two elements side by side use the margin attribute */
     margin-top: 0rem;
     margin-right: 0.5rem;
     font-size: 0.8rem;
     font-weight: 600;
+    background-color: black;
     
 }
 
@@ -41,21 +39,22 @@ font-weight: 700;
     padding: 1rem 0.5rem;
     display:inline;
     position: relative;
-    top: 1rem;
+    top: 0.6rem;
     margin-right: 0.5rem;
     margin-left: 0rem;
-
 }
+
 /* categories and search  */
  .form-control-me-2{
     border-style:solid;
     border-width: 0.1rem;
     width: 35rem;
     height:2.7rem ;
-    border-color: rgb(148, 53, 53);
+    border-color: rgb(0, 0, 0);
     border-radius: 0.9rem;
     font-weight: 800;
     margin-left: 1.5rem;
+    font-size: 0.7rem;
 
 }
 
@@ -64,8 +63,13 @@ font-weight: 700;
     font-size: 0.9rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-style: none;
+    background-color: grey;
 }
 
+.smiling-woman {
+    position: relative;
+    padding-top: 0rem;
+}
 
 .landing-page .smiling-woman{
     height:350px;
@@ -73,6 +77,7 @@ font-weight: 700;
     margin-left: 4rem;
     margin-top:0;
 }
+
 .landing-page .carousel-dark-slide{
     margin-top:-1.5rem;
     bottom: 0rem ;
@@ -87,7 +92,7 @@ font-weight: 700;
 .learning {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 800;
-    font-size:2rem
+    font-size:2rem;
 }
 
 .learning-hero {
@@ -146,7 +151,7 @@ font-weight: 700;
 }
 
 .button-selectors { 
-    border-style: none;
+    border-style:none;
     margin:0.1rem;
     background-color: white;
     font-weight: 700;
@@ -208,12 +213,13 @@ font-weight: 700;
 .course-intro { 
     border-style: solid;
     height: 25rem;
-    width:auto;
+    width:80rem;
     border-width: 0.1rem;
     color: grey;
     top:-10rem;
     margin-left: 5rem;
     margin-right: 5rem;
+    padding-bottom: 40rem;
 }
 .firsthell .carousel-item-active{
     margin-top:3rem;
@@ -225,13 +231,6 @@ font-weight: 700;
 
 }
 
-.carousel-item-active {
-   display: flex;
-   flex-direction: row;
-   flex-flow:row;
-   position: relative;
-}
-
 
 .carousel-item-active .image1{
     top:10rem;
@@ -239,6 +238,7 @@ font-weight: 700;
     size:180px 80px;
 
 }
+
 .photocaption1 .photocaption {
     font-weight: 700;
     font-size: 0.8rem;
@@ -263,6 +263,7 @@ font-weight: 700;
     font-weight: 300;
     font-family:Arial, Helvetica, sans-serif;  
 }
+
 .photocaption1 .spanpricing{
     color: blueviolet;
     margin-left: -4.4rem;
@@ -271,8 +272,6 @@ font-weight: 700;
     font-weight: 700;
     margin-top: -2rem;
     font-size: 1rem;
-    
-
 }
 
 .spanclass1{
@@ -307,6 +306,7 @@ font-weight: 700;
     margin-left:1rem;
     background-color: rgb(244, 247, 252);
     margin-top: 3rem;
+    width:85rem;
 }
 
 .indemand2{
@@ -345,17 +345,34 @@ font-weight: 700;
     top:1.5rem;
     
 }
-.three .picturecollage {
+.three {
+    position: relative;
+    padding-bottom:10rem;
+    top:-5rem;
+    height: fit-content;
+}
+
+.picturecollage {
  display: flex;
  position: relative;
  flex-direction: row;
  margin-top: 2rem;
  flex-grow: 1;
  max-width: max-content;
- top:3.6rem;
+ top:3rem;
  margin-left:0rem;
 }
 
+.picturecollage2 {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin-top: 2rem;
+    flex-grow: 1;
+    max-width: max-content;
+    top:3.6rem;
+    margin-left:0rem;  
+}
 
 .three .sectionheader{
     display: inline;
@@ -366,11 +383,12 @@ font-weight: 700;
 
 .captionabove {
     top:5rem;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 1.8rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
     position: relative;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
 }
 
 .captionbelow {
@@ -395,10 +413,26 @@ font-weight: 700;
     top:1.5rem;
 }
 
+* {
+    width: auto;
+}
+
+/* section 2 */
+.two {
+    position: relative;
+    top:11rem;
+    margin-left:-3rem;
+}
+
+.three{
+position:relative;
+top:10rem;
+}
+
 /* section five */
 
 .five{
-    top:6rem;
+    top:8rem;
     position: relative;
 }
 
@@ -406,18 +440,21 @@ font-weight: 700;
     margin-left:2rem;
     position: relative;
     top:-1rem;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(244, 247, 252);
     height: 25rem;
     max-width: 100%;
+    padding-bottom: 5rem;
 
 }
 .five5 .captionabove {
-    margin-left: 3.5rem;
+    margin-left: 2.6rem;
+    padding-top: 2rem;
     position: relative;
     top:1rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    color: black;
     font-weight:90px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif; }
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif }
 
 .five5 .table{
     margin-left: 2rem;
@@ -430,24 +467,26 @@ font-weight: 700;
     border-style: none;
     border-width: 0.1rem;
     font-size: 0.9rem;
-    background-color: rgb(209, 209, 209);
+    background-color:rgb(244, 247, 252);
 }
 
 .five .linktext {
-    color: purple;
+    color: rgb(80, 18, 180);
     font-weight: 800;
 }
 
 .five .button2 {
-    margin-left: 4rem;
+    margin-left: 2.6rem;
     position:relative;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    top:5rem;
-    display: inline-block;
-    height:2.8rem;
+    top:2.7rem;
+    display: inline;
+    height:2.5rem;
     width:9rem;
-    font-weight: 500;
+    font-weight:500;
+    background-color:rgb(244, 247, 252);
+    color: black;
 }
 
 
@@ -455,6 +494,12 @@ font-weight: 700;
     color: rgb(94, 94, 97);
 }
 
+.table{
+    margin:1rem;
+    width:60rem;
+    padding-inline:1rem;
+    padding: 3rem;
+}
 .fiveseclists {
     background-color: aliceblue;
 }
@@ -518,7 +563,8 @@ top:-16rem;
     top:-8rem;
     position: relative;
     background-color: aliceblue;
-    max-width: 100%;
+    width:120%;
+    margin-left: -10rem;
 }
 
 .captionlogo {
@@ -527,14 +573,17 @@ top:-16rem;
     text-align: center;
     font-size: 1.4rem;
     font-weight: 900;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 1rem;
     font-style: bold;
 }
 
 .logopara {
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color:black;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -542,9 +591,265 @@ top:-16rem;
     position: relative;
     display: flex;
     flex-direction:row;
-    size: 44px 30px;
-    padding:2rem;
-    margin:5rem;
+    margin:1rem;
+    height: fit-content;
+}
 
+.logo {
+    position: relative;
+    margin: 3.5rem;
+    size: 10px 10px;
+    margin-bottom: -2rem;
+    top:-3.5rem;
+    color: rgb(54, 49, 49);
 
 }
+
+.imagecarousel{
+    width:200px;
+    height:250px;
+    display: inline-block;
+    margin:0.8rem;
+    padding-bottom:3rem;
+    top:-2rem;
+    margin-left: 3rem;
+}
+
+.carousel-item {
+    position: absolute;
+    top:2rem;
+}
+
+.carousel-inner {
+    position: relative;
+    background-color: pink;
+    top:5rem;
+
+}
+.imagedescrip {
+    font-size: 0.8rem;
+    padding-top: 0.3rem;
+    display: inline-block;
+    text-align: left;
+    color: black;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin-top: 0rem;
+    top:0.7rem;
+    line-height: 0.9rem;
+
+}
+
+.imagedescrip2 {
+font-size:0.6rem;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+text-align: left;
+font-weight: 400;
+position: relative;
+top:0.2rem;
+font-weight: 500;
+}
+
+.caption {
+    color: rgb(228, 191, 27);
+    font-size: 0.8rem;
+    top:2rem;
+    line-height: -1rem;
+    font-weight: 700;   
+}
+.ratingsfigure {
+    font-size: 0.8rem;
+    top:-1.7rem;
+    color: grey;
+    margin-left: 6rem;
+    position: relative;
+}
+
+.price {
+    position: relative;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    top:-2.5rem;
+}
+.carousel-item {
+    display: flex;
+    flex-direction: row;
+    flex-flow:row;
+    position: relative;
+    margin-top: 3rem;
+ }
+
+ .d-block {
+    size: 40rem 20rem;
+    position:relative;
+    background-color: blue;
+ }
+
+ .udemybiz {
+    height: 15rem;
+    width:10rem;
+    position: relative;
+    margin-left: 10rem;
+    top:5rem;
+ }
+ .caption {
+    color: black;
+    font-size: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    top:-1rem;
+    font-weight: 100;
+    position: relative;
+    margin-left: 10rem;
+ }
+
+ .udemybiz2 {
+    position: relative;
+    align-items: right;
+    margin-left:40rem;
+    top:-12rem;
+    height: 22rem;
+    width: 20rem; }
+
+    .udemybiz3 {
+        position: relative;
+        margin-left: -8rem;
+        height: 22rem;
+        width: 20rem;
+        top:11rem;
+    }
+
+    .captionabove {
+        position: relative;
+        margin-left: 42rem;
+        text-align: left;
+        top:-7rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.8rem;
+        font-weight: 700;
+        line-height: 2rem;
+        height: 3rem;
+    }
+
+    .caption2 {
+    margin-left: 42rem;
+    color: black;
+    font-size: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    top:-1rem;
+    font-weight: 100;
+    position: relative;
+    top:-5rem;
+    }
+
+    .instructbutton {
+        position: relative;
+        height: 2.7rem;
+        width:10rem;
+        position: inline;
+        font-size: 0.8rem;
+        margin-left: -50rem;
+        top:-9.8rem;
+        color: white;
+        background-color: black;
+        font-weight: 500;
+    }
+
+    .instructbutton2 {
+        position: relative;
+        height: 2.7rem;
+        width:9rem;
+        position: inline;
+        font-size: 0.9rem; 
+        margin-left: 42rem;
+        top:-5rem;
+        color: white;
+        background-color: black;
+        font-weight: 600;
+    }
+
+    .page-footer {
+        background-color: black;
+        position: relative;
+        top:5rem;
+        height: 16rem;
+        max-width: 150%;
+    }
+
+    .footer-table {
+        position: relative;
+        top: 2rem;
+        margin-left: 2rem;
+        padding-top:1.8rem;
+        padding-bottom: 1.8rem;
+        font-size: 0.8rem;
+        background-color: black;
+        color:white;
+
+    }
+
+    .instructbutton3 {
+        position: relative;
+        height: 2.7rem;
+        width:9rem;
+        position: inline;
+        font-size: 0.9rem; 
+        margin-left: 65rem;
+        top:-9.5rem;
+        color:black;
+        background-color: white;
+        font-weight: 600;
+
+    }
+
+    .tbhead {
+        margin:0rem;
+        padding-left: 5rem;
+        padding-right:5rem;
+        position: relative;
+    }
+
+    .tbdata {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        margin-left:0rem;
+        padding-top: 0.2rem;
+        padding-bottom:0.2rem;
+
+    }
+
+    .footercaption {
+        position:relative;
+        height: 3rem;
+        width:8rem;
+        top:2.3rem;
+        margin-left:2rem;
+        color:white;
+    }
+
+.address {
+    position: relative;
+    margin-left: 70rem;
+    font-size: 0.7rem;
+    top:-2.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.instructbutton4 {
+    position: relative;
+    height: 2.7rem;
+    width:3rem;
+    position: inline;
+    font-size: 0.9rem; 
+    margin-left: 65rem;
+    top:-9.5rem;
+    color:black;
+    background-color: white;
+    font-weight: 600; 
+}
+ 
