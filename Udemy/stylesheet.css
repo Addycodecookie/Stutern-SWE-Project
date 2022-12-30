@@ -1,3 +1,7 @@
+* {
+    max-width: 100%;
+}
+
 .btn-btn-outline-login {
 position: relative;
 display: inline;
@@ -169,7 +173,7 @@ font-weight: 700;
 .Career-header{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 800;
-    color: rgb(22, 197, 168);
+    color: rgb(7, 8, 8);
     font-size:1.6rem;
     margin-left: 2rem;
     text-align: justify;
@@ -201,55 +205,6 @@ font-weight: 700;
     font-size: 0.6rem;
     font-weight: 700;
     margin-left: 2rem;
-}
-
-/* carousel starts from here */
-.CAROUSEL-MAIN {
-    margin-top:-6rem;
-    margin-left:-1rem;
-}
-
-/* this div houses the entire thing */
-.course-intro { 
-    border-style: solid;
-    height: 25rem;
-    width:80rem;
-    border-width: 0.1rem;
-    color: grey;
-    top:-10rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    padding-bottom: 40rem;
-}
-.firsthell .carousel-item-active{
-    margin-top:3rem;
-    margin-left:2rem;
-    margin-right: 3rem;
-    border-style:solid;
-    border-width: 0.2rem;
-    color: rgb(153, 26, 48);
-
-}
-
-
-.carousel-item-active .image1{
-    top:10rem;
-    margin-left: 0.7rem;
-    size:180px 80px;
-
-}
-
-.photocaption1 .photocaption {
-    font-weight: 700;
-    font-size: 0.8rem;
-    position: relative;
-    margin-top: 0.6rem;
-    color: black;
-    margin-left: 0.8rem;
-    line-height: -5rem;
-    border-style: none;
-    display: inline-block;
-    
 }
 
 #smallcaption {
@@ -563,7 +518,7 @@ top:-16rem;
     top:-8rem;
     position: relative;
     background-color: aliceblue;
-    width:120%;
+    width:140%;
     margin-left: -10rem;
 }
 
@@ -615,6 +570,53 @@ top:-16rem;
     margin-left: 3rem;
 }
 
+.CAROUSEL-MAIN {
+    margin-top:-6rem;
+    margin-left:-1rem;
+}
+.four .picturecollage {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin-top: 5rem;
+    flex-grow: 1;
+    max-width: max-content;
+    top:1.5rem;}
+
+/* this div houses the entire thing */
+.course-intro { 
+    border-style: solid;
+    height: 25rem;
+    width:80rem;
+    border-width: 0.1rem;
+    color: grey;
+    top:-10rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-bottom: 40rem;
+}
+.carousel-item-active{
+    margin-top:3rem;
+    margin-left:2rem;
+    margin-right: 3rem;
+    border-style:solid;
+    border-width: 0.2rem;
+    color: rgb(153, 26, 48);
+
+}
+
+.photocaption1 .photocaption {
+    font-weight: 700;
+    font-size: 0.8rem;
+    position: relative;
+    margin-top: 0.6rem;
+    color: black;
+    margin-left: 0.8rem;
+    line-height: -5rem;
+    border-style: none;
+    display: inline-block;
+    
+}
 .carousel-item {
     position: absolute;
     top:2rem;
@@ -651,14 +653,14 @@ top:0.2rem;
 font-weight: 500;
 }
 
-.caption {
+.carousel-inner .caption {
     color: rgb(228, 191, 27);
     font-size: 0.8rem;
     top:2rem;
     line-height: -1rem;
     font-weight: 700;   
 }
-.ratingsfigure {
+.carousel-inner .ratingsfigure {
     font-size: 0.8rem;
     top:-1.7rem;
     color: grey;
@@ -666,7 +668,7 @@ font-weight: 500;
     position: relative;
 }
 
-.price {
+.carousel-inner .price {
     position: relative;
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -682,7 +684,7 @@ font-weight: 500;
     margin-top: 3rem;
  }
 
- .d-block {
+ .carousel-inner .d-block {
     size: 40rem 20rem;
     position:relative;
     background-color: blue;
@@ -695,7 +697,7 @@ font-weight: 500;
     margin-left: 10rem;
     top:5rem;
  }
- .caption {
+ .carousel-inner .caption {
     color: black;
     font-size: 1rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -846,10 +848,12 @@ font-weight: 500;
     width:3rem;
     position: inline;
     font-size: 0.9rem; 
-    margin-left: 65rem;
-    top:-9.5rem;
+    margin-right:5rem;
+    top:-20rem;
     color:black;
     background-color: white;
-    font-weight: 600; 
+    font-weight: 600;
+    border-style: none; 
+
 }
  
