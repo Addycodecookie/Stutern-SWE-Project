@@ -3,6 +3,9 @@
     top: -1rem;
     margin-left: -2rem;
 }
+.body{
+    background-color: lightgray;
+}
 .stories-section {
     position: absolute;
     margin-left: -2rem;
@@ -16,7 +19,7 @@
     border-style: solid;
     border-width: 0.1rem;
     height: 60rem;
-    border-color: lightgrey;
+    border-color: rgb(228, 215, 215);
 }
 
 .Navigation {
@@ -207,10 +210,10 @@ margin-left:5rem;
     border-style: solid;
     border-width: 0.1rem;
     border-radius:1rem;
-    border-color: rgb(204, 116, 15);
+    border-color: rgb(233, 228, 222);
     margin-left: 25rem;
     margin-top:2rem;
-    background-color: whitesmoke;
+    background-color: white;
  }
 
 /* the carousel section */
@@ -294,7 +297,7 @@ margin-left:5rem;
     max-width:3.5rem;
     border-style: solid;
     border-width: 3px;
-    border-color: brown;
+    border-color: rgb(37, 196, 130);
     border-radius: 50%;
     top:-4.85rem;
     margin-left:17rem;
@@ -306,9 +309,9 @@ margin-left:5rem;
     max-width:3.5rem;
     border-style: solid;
     border-width: 3px;
-    border-color: brown;
+    border-color: rgb(212, 177, 177);
     border-radius: 50%;
-    top:-8.2rem;
+    top:-8.3rem;
     margin-left:21.2rem;
     position: relative;
     
@@ -335,23 +338,23 @@ margin-left:5rem;
     size:2px;
     height:1rem;
     max-width: 1.5rem;
-    background-color: blueviolet; 
+    background-color: rgb(184, 184, 184); 
     border-style: none;
     border-radius: 50%; 
     position: relative;
-    top: 2.2rem;
+    top: 2.8rem;
  }
 
  .carousel-control-next{
-    margin-left: 23rem;
+    margin-left: 25rem;
     size:2px;
     height:1rem ;
     max-width: 1.5rem;
     position: relative;
-    background-color: blueviolet;
+    background-color: rgb(232, 226, 236);
     border-style: none;
     border-radius: 50%;
-    top:1.9;
+    top:1.5rem;
 
  }
  /* photo catalogue */
@@ -557,6 +560,12 @@ top:102rem;
 margin-left: -2rem;
 }
 
+.main-body4 {
+position:absolute;
+top:154rem;
+margin-left:-2rem;
+}
+
 .timeline-carousel {
     position: absolute;
     background-color: white;
@@ -564,11 +573,13 @@ margin-left: -2rem;
 .carousel-control-prev2 {
     position: relative;
     top:7rem;
-    width: 2rem;
+    size:8px;
+    width: 1.7rem;
+    height:1.5rem;
     border-style:none;
     border-radius: 50%;
     padding: 0rem;
-    background-color: blueviolet;
+    background-color: rgb(233, 226, 240);
     margin-left: 1rem;
     
 }
@@ -576,10 +587,12 @@ margin-left: -2rem;
 .carousel-control-next2 {
     position: relative;
     top:5rem;
-    width: 2rem;
+    size:10px;
+    width: 1.7rem;
+    height:1.5rem;
     border-style:none;
     border-radius: 50%;
-    background-color: blueviolet; 
+    background-color: rgb(230, 225, 235); 
     margin-left: 23rem;
     padding:0rem;
 }
@@ -642,7 +655,7 @@ margin-left: -2rem;
     height:20rem;
     width:30rem;
     top:1rem;
-    border-style: solid;
+    border-style: none;
     border-width: 0.1rem;
     background-color:white;
 
@@ -686,7 +699,7 @@ margin-left: -2rem;
 
 .switch{
     position:relative;
-    margin-left: 22rem;
+    margin-left: 26rem;
     top:-4.5rem;
     color: rgba(5, 149, 245, 0.897);
     font-weight: 600;
@@ -698,4 +711,102 @@ margin-left: -2rem;
 .switch:hover{
 color: darkblue;
 
+}
+.suggestions {
+    position: relative;
+    margin-left:2rem;
+    top:-3.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+    color: darkgray;
+    font-weight: 600; 
+}
+
+.Seeall {
+    position: relative;
+    top:-5.8rem;
+    margin-left:24rem;
+    color: black;
+}
+
+.profiles {
+    position: relative;
+    margin-left:3.5rem;
+    color: black;
+    font-size: 0.85rem;
+    top:-7.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+    
+}
+.suggest-photo {
+    position: relative;
+    margin-left:1rem ;
+    top:-5.5rem;
+    z-index: 2;
+    width: 2.3rem;
+    height: 2rem;
+    border-style: none;
+}
+
+.sug-follow {
+    position: relative;
+    top:-4.5rem;
+    margin-left: 24rem;
+}
+.newbiesuggest {
+    position: relative;
+    margin-top: -6.3rem;
+    margin-left:3.5rem;
+}
+
+.suggest {
+    position: relative;
+    top:-2rem;
+    padding-bottom: 0.8rem;
+}
+.suggest-2 {
+    position: relative;
+    top:-0.8rem;
+    padding-bottom: 2rem;
+}
+
+.suggest-3 {
+    position: relative;
+    top:-0.8rem;
+    padding-bottom: 2em;
+}
+.suggest-4 {
+    position: relative;
+    top: -0.8rem;
+    padding-bottom: 2rem;
+}
+.suggest-5 {
+    position: relative;
+    top: -0.8rem;
+    padding-bottom: 3rem;
+}
+
+.annoucements {
+    position: relative;
+    top:29rem;
+    color: black;
+    margin-left: 45rem;
+}
+
+.linksname {
+  position: relative; 
+  cursor: pointer; 
+  transition: 0.3s;
+  color: gray;
+
+}
+
+.linksname:hover {
+transition: 0.3s;
+color: grey;
+}
+
+.copyright{
+    position: relative;
 }
